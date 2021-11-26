@@ -1,9 +1,4 @@
 .App-HeaderComponent{
-    position: absolute;
-    left: 0.00%;
-    right: 0.00%;
-    top: 0.00%;
-    bottom: 91%;
     background: #5F12B6;
     height: 200px;
 }
@@ -15,7 +10,7 @@
 
 .App-LogoImg{
     position: relative;
-    margin-top: 100px;
+    margin-top: 50px;
     width: 50px;
     color: white;
 }

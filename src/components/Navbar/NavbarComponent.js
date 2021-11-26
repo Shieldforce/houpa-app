@@ -5,8 +5,14 @@ import './NavbarComponent.css';
 function NavbarComponent() {
   return (
     <div className="App-NavbarComponent">
-      <LinkComponent textComponent="Vitrines"/>
-      <LinkComponent textComponent="Gerenciar Vitrines"/>
+      <div className="container">
+        <div className="row">
+          <div className="col-12">
+            <LinkComponent textComponent="Vitrines"/>
+            <LinkComponent textComponent="Gerenciar Vitrines"/>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }

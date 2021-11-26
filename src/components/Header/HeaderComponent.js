@@ -4,8 +4,6 @@ import './HeaderComponent.css';
 import imgLogo from '../Imgs/logo-h.svg'
 
 function HeaderComponent() {
-  
-
   return (
     <div className="App-HeaderComponent">
       <NavbarComponent/>

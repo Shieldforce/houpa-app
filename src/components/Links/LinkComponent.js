@@ -3,9 +3,7 @@ import './LinkComponent.css';
 
 function LinkComponent({ textComponent }) {
   return (
-    <div className="App-LinkComponent container">
-        { textComponent }
-    </div>
+    <a className="App-LinkComponent col-2">{ textComponent }</a>
   );
 }
 

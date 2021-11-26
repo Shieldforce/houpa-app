@@ -1,10 +1,7 @@
 .App-LinkComponent{
-    position: relative;
-    float: left;
-    margin-left: 1%;
-    color: #9D85C1;
-    margin-top: 15px;
+    color: #606060;
     cursor: pointer;
+    padding: 10px;
 }
 
 .App-LinkComponent:hover{
