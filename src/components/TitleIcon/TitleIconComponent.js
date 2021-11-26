@@ -1,7 +1,7 @@
 import React from 'react';
 import './TitleIconComponent.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCoffee, faStore } from '@fortawesome/free-solid-svg-icons'
+import { faStore } from '@fortawesome/free-solid-svg-icons'
 
 function TitleIconComponent() {
 
