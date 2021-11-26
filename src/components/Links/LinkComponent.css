@@ -1,0 +1,12 @@
+.App-LinkComponent{
+    position: relative;
+    float: left;
+    margin-left: 1%;
+    color: #9D85C1;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.App-LinkComponent:hover{
+    color: #eee;
+}
