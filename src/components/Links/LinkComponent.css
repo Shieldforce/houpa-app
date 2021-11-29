@@ -1,9 +1,9 @@
-.App-LinkComponent{
+.App-LinkComponent {
     color: #606060;
     cursor: pointer;
     padding: 10px;
 }
 
-.App-LinkComponent:hover{
+.App-LinkComponent:hover {
     color: #eee;
 }

@@ -1,14 +1,14 @@
-.App-HeaderComponent{
+.App-HeaderComponent {
     background: #5F12B6;
     height: 200px;
 }
 
-.App-LogoContainer{
+.App-LogoContainer {
     width: 100%;
     text-align: center;
 }
 
-.App-LogoImg{
+.App-LogoImg {
     position: relative;
     margin-top: 50px;
     width: 50px;

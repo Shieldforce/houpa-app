@@ -1,0 +1,16 @@
+.App-SearchCategoriesComponent {
+
+}
+
+.App-SearchCategoriesComponent:hover {
+
+}
+
+.App-input-search {
+    border: none;
+    width: 90%;
+}
+
+.App-input-search:focus {
+    outline: none !important;
+}

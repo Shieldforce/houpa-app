@@ -1,0 +1,11 @@
+.App-MenuCategoriesComponent {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    padding: 5px;
+    margin-left: 5px;
+}
+
+.App-MenuCategoriesComponent:hover{
+    /*border-bottom: 3px solid #5F12B6;*/
+}

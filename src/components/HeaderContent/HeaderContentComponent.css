@@ -1,0 +1,20 @@
+.App-HeaderContentComponent {
+    background: transparent;
+    height: 100px;
+    padding-top: 50px;
+}
+
+.App-CategoryNavigation{
+    margin-left: 10px;
+}
+
+.App-SearchNavigation{
+
+}
+
+.App-div-search{
+    color: #cecece;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #cecece;
+}
