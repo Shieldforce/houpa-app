@@ -3,9 +3,11 @@ import './ContentComponent.css';
 import HeaderContentComponent from "../HeaderContent/HeaderContentComponent";
 import HeaderManageContentComponent from "../HeaderManageContent/HeaderManageContentComponent";
 import BodyContentComponent from "../BodyContent/BodyContentComponent";
-import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import axios from "axios";
 import BodyManageContentComponent from "../BodyManageContent/BodyManageContentComponent";
+import BodySaveContentComponent from "../BodySaveContent/BodySaveContentComponent";
+import BodyEditContentComponent from "../BodyEditContent/BodyEditContentComponent";
 
 function ContentComponent() {
     const [token, setToken] = useState('');
@@ -91,6 +93,24 @@ function ContentComponent() {
                                 <HeaderManageContentComponent setProducts={setProducts} setSearch={setSearch} value={search} handleSearchProducts={handleSearchProducts}/>
                                 <BodyManageContentComponent products={products} />
                             </div>
+                        }
+                    />
+                    {/*Rota de Cadastro e Edição de Produtos*/}
+                    <Route
+                        path="/saveProduct"
+                        element= {
+                            <>
+                                <BodySaveContentComponent products={products} />
+                            </>
+                        }
+                    />
+                    {/*Rota de Cadastro e Edição de Produtos*/}
+                    <Route
+                        path="/saveProduct/:id"
+                        element= {
+                            <>
+                                <BodyEditContentComponent products={products} />
+                            </>
                         }
                     />
                 </Routes>

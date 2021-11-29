@@ -7,7 +7,25 @@
     margin-bottom: 20px;
 }
 
-.App-img-product{
+.App-manage-img-product{
     width: 100%;
     height: 100px;
+}
+
+.fa-icon-custom-edit{
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.fa-icon-custom-edit:hover{
+    color: #cecece !important;
+}
+
+.fa-icon-custom-ban{
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.fa-icon-custom-ban:hover{
+    color: #450887 !important;
 }

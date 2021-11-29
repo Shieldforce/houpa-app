@@ -2,3 +2,8 @@
     color: black;
     padding: 10px;
 }
+
+.btn-custom{
+    background: #450887 !important;
+    border: none !important;
+}
